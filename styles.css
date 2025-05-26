@@ -61,7 +61,7 @@ h3 {
 }
 
 h3:hover {
-    color: #0e1ceb;
+    color: #EE7429;  /*0e1ceb replaced to #EE7429*/
 }
 
 
@@ -126,7 +126,7 @@ border-radius: 3px; /* This rounds the edges */
 
 
     .full-width-banner {
-      background-color: #0e1ceb; /* A dark blue */
+      background-color: #EE7429; /* A dark blue */ /*0e1ceb replaced to #EE7429*/
       color: white;
       border-bottom: 2px solid #000;
       font-family: 'Georgia', serif;
@@ -196,7 +196,7 @@ border-radius: 3px; /* This rounds the edges */
   justify-content: center;
   gap: 2px;
   flex-wrap: wrap;
-  background-color: #0e1ceb;
+  background-color: #EE7429;   /*0e1ceb replaced to #EE7429*/
   padding: 5px;
   border-bottom: 3px solid #000;
 
@@ -219,9 +219,9 @@ a:hover {
   padding: 2px 4px;
   border: 1px solid #000;
   transition: all 0.3s ease;
-  background-color: #0e1ceb;
+  background-color: #EE7429 ;  /*0e1ceb replaced to #EE7429*/
 }
-
+/*0e1ceb*/
 .nav-bar a:hover {
   background-color: #3B82F6
 /*#0e1ceb;*/
@@ -236,7 +236,7 @@ a:hover {
 }
 
 .site-footer {
-  background-color: #0e1ceb;
+  background-color: #EE7429; /*0e1ceb replaced to #EE7429*/
   color: #eee;
   text-align: center;
   padding:10px 5px;
@@ -309,7 +309,7 @@ a:hover {
 }
 
 
-
+/*0e1ceb replaced to #EE7429*/
 
 
 
