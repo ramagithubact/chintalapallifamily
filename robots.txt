@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ramagithubact.github.io/chintalapallifamily/sitemap.xml
