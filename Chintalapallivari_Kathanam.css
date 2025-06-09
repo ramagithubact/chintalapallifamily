@@ -1,0 +1,287 @@
+/* Chintalapalli Family Heritage Section */
+.family-heritage {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 25px;
+    background-color: #fafafa; /* light background */
+    border: 1px solid #ddd;    /* subtle border */
+    border-radius: 8px;
+    font-family: 'Noto Sans Telugu', 'Segoe UI', sans-serif; /* good Telugu font + fallback */
+    font-size: 1.1em;
+    line-height: 1.7;
+    color: #333;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* subtle shadow */
+}
+
+.family-heritage h3 {
+    text-align: center;
+    font-size: 1.6em;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.family-heritage h4 {
+    text-align: center;
+    font-size: 1.3em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.family-heritage p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.family-heritage ul {
+    text-align: left;
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 20px auto;
+    max-width: 700px;
+}
+
+.family-heritage ul li {
+    margin-bottom: 8px;
+}
+
+.family-heritage em {
+    color: #666;
+    font-style: italic;
+}
+
+.family-heritage strong {
+    color: #000; /* make strong text clear */
+}
+
+.family-heritage p:last-child {
+    text-align: right;
+    font-weight: bold;
+}
+
+/* Fancy Section Heading with underline */
+.section-heading {
+    position: relative;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    font-family: 'Noto Sans Telugu', 'Segoe UI', sans-serif;
+    color: #2c3e50;
+}
+
+.section-heading::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background-color: #f39c12; /* golden color line */
+    border-radius: 2px;
+}
+
+
+/* Family Tree Section */
+.main-content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Noto Sans Telugu', 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fdfdfd;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+}
+
+/* Section heading */
+.main-content h3 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    color: #2c3e50;
+    position: relative;
+}
+
+.main-content h3::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background-color: #f39c12;
+    border-radius: 2px;
+}
+
+/* Family table styling */
+.family-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.family-table th {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+}
+
+.family-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+    vertical-align: top;
+    font-size: 1em;
+}
+
+.family-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.family-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Font styles */
+.font-12-bold {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* Descendants note */
+.descendants-note {
+    font-style: italic;
+    background-color: #fcf8e3;
+    border-left: 5px solid #f0ad4e;
+    padding: 15px;
+    text-align: left;
+    font-size: 1em;
+    color: #555;
+    border-radius: 8px;
+}
+
+/* Family Tree Section */
+.desc-content {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    font-family: 'Noto Sans Telugu', 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: linear-gradient(to bottom right, #fff, #f9f9ff);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    transition: transform 0.2s;
+}
+
+.desc-content:hover {
+    transform: scale(1.005);
+}
+
+/* Section heading */
+.desc-content h3 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    color: #34495e;
+    position: relative;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.desc-content h3::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 4px;
+    background: linear-gradient(to right, #f39c12, #e67e22);
+    border-radius: 3px;
+}
+
+/* Family table styling */
+.family-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.family-table th {
+    background: linear-gradient(to right, #4CAF50, #66BB6A);
+    color: white;
+    font-size: 1.3em;
+    padding: 14px;
+    text-align: center;
+    border-radius: 12px 12px 0 0;
+    letter-spacing: 1px;
+}
+
+.family-table td {
+    border: 1px solid #e1e1e1;
+    padding: 14px 10px;
+    text-align: center;
+    vertical-align: top;
+    font-size: 1.05em;
+    color: #444;
+    transition: background-color 0.3s;
+}
+
+.family-table tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+.family-table tr:hover {
+    background-color: #f5faff;
+}
+
+/* Font styles */
+.font-12-bold {
+    font-size: 1.15em;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* Descendants note */
+.descendants-note {
+    font-style: italic;
+    background-color: #fff8dc;
+    border-left: 6px solid #f0ad4e;
+    padding: 16px;
+    text-align: left;
+    font-size: 1em;
+    color: #555;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(240, 173, 78, 0.2);
+}
+
+/* Small mobile tweak */
+@media (max-width: 600px) {
+    .main-content {
+        padding: 15px;
+    }
+
+    .main-content h3 {
+        font-size: 1.5em;
+    }
+
+    .family-table th, .family-table td {
+        font-size: 0.95em;
+        padding: 10px;
+    }
+}
+
