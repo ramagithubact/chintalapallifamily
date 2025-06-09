@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chintalapalli Families</title>
+  <link rel="stylesheet" href="styles.css" />
+<meta name="description" content="The Chintalapalli Family Tree - A historical record of generations and heritage.">
+<meta name="keywords" content="Chintalapalli family, Chinthalapalli, family tree, heritage, genealogy, Andhra Pradesh">
+<meta name="author" content="Chintalapalli Family">
+<title>Chintalapalli Family - Family Tree and History</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #fff8f0; color: #333;">
+
+<!-- Header -->
+<header style="background-color: #a94442; color: white; padding: 20px; text-align: center;">
+  <h1>🌟 చింతలపల్లి వంశ సమ్మేళనాలు 🌟</h1>
+  <p style="font-size: 1.2em;">Family Unity • Heritage • Celebrations</p>
+</header>
+
+
+
+<!-- Family Videos Section -->
+<section style="background-color: #fff3e6; border: 2px solid #e69500; padding: 20px; margin: 20px; text-align: center; border-radius: 10px;">
+  <h2 style="color: #e69500;">📺 Family Event Videos</h2>
+  <p style="font-size: 1.2em; color: #444;">
+    All family event videos will be posted on our YouTube channel. Stay tuned and subscribe to watch memories from this celebration!
+  </p>
+  <div style="margin-top: 20px;">
+    <a href="https://youtube.com/@ramakanthreddychintalapall6679?si=KTqitq14YCQ7PzYq" target="_blank" style="background-color: #ff0000; color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-size: 1.2em;">
+      ▶️ Watch on YouTube
+    </a>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer style="background-color: #a94442; color: white; padding: 15px; text-align: center; font-size: 1em;">
+  © 2025 Chintalapalli Families | Designed with ❤️
+</footer>
+
+<!-- Countdown Timer Script -->
+<script>
+  const eventDate = new Date("2025-06-10T06:00:00").getTime();
+
+  const countdownFunction = setInterval(() => {
+    const now = new Date().getTime();
+    const distance = eventDate - now;
+
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    document.getElementById("countdown").innerHTML = 
+      days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+
+    if (distance < 0) {
+      clearInterval(countdownFunction);
+      document.getElementById("countdown").innerHTML = "Event Started!";
+    }
+  }, 1000);
+</script>
+
+</body>
+</html>

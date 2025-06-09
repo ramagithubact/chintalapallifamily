@@ -1,0 +1,162 @@
+
+
+ 
+.chintalapalli-heading {
+    font-size: 15px;
+    font-family: 'Georgia', serif;
+    color: #2C3E50;
+    text-align: center;
+    padding: 5px;
+    margin: 5px auto;
+    border: 1px solid #B9770E;
+    border-radius: 6px;
+    background: linear-gradient(to right, #FFF8E1, #FFF3E0);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    max-width: 800px;
+    transition: all 0.3s ease-in-out;
+}
+
+.chintalapalli-heading:hover {
+    background: linear-gradient(to right, #FFECB3, #FFE0B2);
+    color: #BF360C;
+    border-color: #F57C00;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+    
+
+.header-telugu-text {
+  font-size: 15px;
+  font-family: 'Noto Serif Telugu', serif;
+  display: block;
+  color: #4E342E;
+  margin-top: 8px;
+}
+
+
+
+/*
+.chintalapalli-heading {
+  font-size: 20px;
+  font-family: 'Georgia', serif;
+  color: #ffffff; White text looks better on orange bg 
+  text-align: center;
+  padding: 10px;
+  margin: 20px auto;
+  border: 1px solid #B9770E;
+  border-radius: 6px;
+  background: linear-gradient(to right, #FFA500, #FF7F50, #FF6347);   Orange gradient 
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  max-width: 800px;
+  transition: all 0.3s ease-in-out;
+  cursor: default; just a small UX improvement 
+}*/
+/*
+.chintalapalli-heading {
+  font-size: 20px;
+  font-family: 'Georgia', serif;
+  color: #FFFFFF; White text for contrast 
+  text-align: center;
+  padding: 10px;
+  margin: 20px auto;
+  border: 1px solid rgba(255, 255, 255, 0.5); Optional subtle white border 
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.1);  Optional transparent background 
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  max-width: 800px;
+  transition: all 0.3s ease-in-out;
+}*/
+
+
+ /*Hover effect 
+.chintalapalli-heading:hover {
+  background: linear-gradient(to right, #FFB347, #FF8C69, #FF7260);  Slightly brighter gradient on hover 
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+*/
+/*
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  background: linear-gradient(to right, #FFA726, #FB8C00, #F57C00); horizontal orange gradient 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-bottom: 10px;
+}*/
+
+/* Complaint Button 
+.complaint-button {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #FF7F50;  Coral orange 
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+  border: 1px solid #FF6347;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin: 10px;
+}
+*/
+/* Hover effect 
+.complaint-button:hover {
+  background-color: #FF4500;  Darker orange on hover 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+*/
+
+.complaint-button {
+  display: inline-block;
+  padding: 8px 14px;
+  background-color: rgba(255, 255, 255, 0.2); /* Transparent white */
+  color: #FFFFFF; /* White text */
+  font-weight: bold;
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.complaint-button:hover {
+  background-color: #FFFFFF; /* On hover: solid white */
+  color: #F57C00; /* Orange text on hover */
+  border-color: #F57C00;
+}
+
+
+
+/* Responsive: Mobile view */
+@media (max-width: 600px) {
+  .site-header {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+  }
+
+  .chintalapalli-heading {
+      font-size: 18px;
+      padding: 8px;
+      margin-bottom: 8px;
+  }
+
+  .header-right {
+      width: 100%;
+      text-align: center;
+      margin-top: 5px;
+  }
+
+  .complaint-button {
+      padding: 6px 12px;
+      font-size: 13px;
+  }
+}

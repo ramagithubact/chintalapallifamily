@@ -5,12 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Chintalapalli Families</title>
   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="family-tree.css" />
+  
   <meta name="description" content="The Chintalapalli Family Tree - A historical record of generations and heritage.">
   <meta name="keywords" content="Chintalapalli family, Chinthalapalli, family tree, heritage, genealogy, Andhra Pradesh">
   <meta name="author" content="Chintalapalli Family">
 </head>
 <body>
-<!--header -->
+
 <!-- placeholder for header -->
 <div id="header-placeholder"></div>
 
@@ -23,60 +25,27 @@
 <div id="intro-section-placeholder"></div>
 
 
-  <!--
-<section id="event-section" class="event-section container">
-  <h3>🎉 Upcoming Chintalapalli Families Get-Together 🎉</h3>
-  <p>
-    We are excited to announce the next <strong>Chintalapalli Families Grand Celebration!</strong>
-    All Chintalapalli families are warmly invited to join this grand celebration of our heritage and unity.
+<!-- placeholder for intro-section -->
+<div id="CelebrationCountDowntimer-info-mini-placeholder"></div>
+
+
+
+<!-- Family Videos Section -->
+<section style="background-color: #fff3e6; border: 2px solid #e69500; padding: 20px; margin: 20px; text-align: center; border-radius: 10px;">
+  <h2 style="color: #e69500;">📺 Family Event Videos</h2>
+  <p style="font-size: 1.2em; color: #444;">
+    All family event videos will be posted on our YouTube channel. Stay tuned and subscribe to watch memories from this celebration!
   </p>
-  <p class="important">
-    🗓️ Date: 10th June 2025 &nbsp;&nbsp;
-    🕕 Time: 6:00 PM onwards &nbsp;&nbsp;
-    📍 Venue: Chinna MutyalReddy Thotalo &nbsp;&nbsp;
-    Contribution per Family: ₹2000 <br/>
-    PhonePe Number: <strong>8985729052</strong>
-  </p>
-
-  <h2>Event starts in: <span id="countdown">Loading...</span></h2>
-
-  <div>
-    <h4>✅ Families who already contributed ₹2000:</h4>
-
-    <table class="paid-families-table">
-      <thead>
-        <tr>
-          <th>#</th>
-          <th>Family Name</th>
-        </tr>
-      </thead>
-      <tbody>
-       Rows remain same 
-        <tr><td>1</td><td>C. Venkatrami Reddy</td></tr>
-        <tr><td>2</td><td>C. Narayana Reddy</td></tr>
-        <tr><td>3</td><td>C. Govinda Reddy</td></tr>
-        <tr><td>4</td><td>C. Hanumantha Reddy</td></tr>
-        <tr><td>5</td><td>C. Venkata Reddy</td></tr>
-        <tr><td>6</td><td>C. Ramachandra Reddy</td></tr>
-        <tr><td>7</td><td>C. Prabhakar Reddy</td></tr>
-        <tr><td>8</td><td>C. Chinna Mutyala Reddy</td></tr>
-        <tr><td>9</td><td>C. Hanumantha Reddy (Indlavenkatampalli)</td></tr>
-        <tr><td>10</td><td>C. Subbireddy</td></tr>
-        <tr><td>11</td><td>C. Venkatramireddy (Chandrappa)</td></tr>
-        <tr><td>12</td><td>C. Ramanareddy (Bhoomireddy)</td></tr>
-      </tbody>
-    </table>
+  <div style="margin-top: 20px;">
+    <a href="https://youtube.com/@ramakanthreddychintalapall6679?si=KTqitq14YCQ7PzYq" target="_blank" style="background-color: #ff0000; color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-size: 1.2em;">
+      ▶️ Watch on YouTube
+    </a>
   </div>
-
-  <a href="https://wa.me/919790939762?text=I%20confirm%20my%20participation%20for%20the%20Chintalapalli%20Family%20Event%20on%2010th%20June%202025" target="_blank" class="confirm-btn" rel="noopener noreferrer">
-    ✅ Confirm Participation via WhatsApp
-  </a>
 </section>
 
--->
+<!-- placeholder for footer -->
+<div id="footer-placeholder"></div>
 
-<!-- placeholder for intro-section -->
-<div id="CelebrationCountDowntimer-info-placeholder"></div>
 
 
 <!-- Countdown Timer Script -->
@@ -107,10 +76,6 @@
 </script>
 
 
-
-
-<!-- placeholder for footer -->
-<div id="footer-placeholder"></div>
 
 
 
@@ -151,16 +116,17 @@ fetch('footer.html')
   fetch('intro-section.html')
   .then(response => response.text())
   .then(data => document.getElementById('intro-section-placeholder').innerHTML = data);
-
-    // Load CelebrationCountDowntimer-info-placeholder
-
-  fetch('CelebrationCountDowntimer-info.html')
-  .then(response => response.text())
-  .then(data => document.getElementById('CelebrationCountDowntimer-info-placeholder').innerHTML = data);
-
-
   
-</script>
+  
 
+    // Load CelebrationCountDowntimer-info -mini section
+  
+    fetch('CelebrationCountDowntimer-info-mini.html')
+  .then(response => response.text())
+  .then(data => document.getElementById('CelebrationCountDowntimer-info-mini-placeholder').innerHTML = data);
+  
+
+</script>
+	
 </body>
 </html>

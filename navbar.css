@@ -1,0 +1,126 @@
+
+/* navbar.css */
+
+/* Sticky Navigation Bar */
+
+.nav-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #CC5200  ; /* Solid Dark Orange B9770E */
+  padding: 16px;
+  border-bottom: 4px solid #CC5200; /* Slightly darker orange for border */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-bar a {
+  margin: 6px 12px;
+  color: #ffffff; /* White text */
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding: 10px 18px;
+  border-radius: 0; /* No rounded corners */
+  background: none; /* No background around text */
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+.nav-bar a:hover,
+.nav-bar a:focus {
+  color: #FFFF99; /* Light yellowish hover effect */
+  border-bottom: 2px solid #FFFF99; /* Underline on hover */
+}
+/* Responsive Adjustments */
+@media (max-width: 600px) {
+  .nav-bar {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .nav-bar a {
+      margin: 8px 0;
+      width: 90%;
+      text-align: center;
+  }
+
+  .chintalapalli-heading {
+      font-size: 22px;
+      padding: 8px;
+      letter-spacing: 1px;
+  }
+
+  .telugu-text {
+      font-size: 15px;
+  }
+}
+
+
+/* Dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown button */
+.dropbtn {
+  background: none;
+  border: none;
+  color: #ffffff;  /* White text */
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 12px 20px;
+  cursor: pointer;
+  font-family: 'Georgia', serif; /* elegant serif font */
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  border-bottom: 2px solid transparent;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+.dropdown:hover .dropbtn {
+  color: #ffd54f; /* golden yellow */
+  border-bottom: 2px solid #ffd54f;
+}
+
+
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #CC5200; /* same orange */
+  min-width: 180px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1001;
+  border-radius: 0;
+  flex-direction: column;
+}
+
+/* Links inside dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-weight: normal;
+}
+
+/* Hover on dropdown links */
+.dropdown-content a:hover {
+  background-color: #e67300; /* slightly lighter orange on hover */
+  color: #FFFF99; /* light yellow */
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Change button text color on hover */
+.dropdown:hover .dropbtn {
+  color: #FFFF99;
+  border-bottom: 2px solid #FFFF99;
+}
